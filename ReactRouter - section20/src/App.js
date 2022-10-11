@@ -3,19 +3,20 @@ import MainHeader from "./components/MainHeader";
 import ProductDetail from "./pages/ProductDetail";
 import Products from "./pages/Products";
 import Welcome from "./pages/Welcome";
+ 
 
 function App() {
   return (
     <div>
-      <MainHeader/>
+      <MainHeader />
       <Route path="/welcome/">
-        <Welcome/> 
+        <Welcome />
       </Route>
-      <Route path="/products/"> 
-        <Products/>
+      <Route path="/products/">
+        <Products />
       </Route>
       <Route path="/product-detail/:productId">
-        <ProductDetail/>
+        <ProductDetail />
       </Route>
     </div>
   );
