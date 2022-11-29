@@ -1,0 +1,57 @@
+oxunulub aydin olanlar			oxunulub aydin olmayanlar 		oxunulmayanlar
+
+ 
+1)Let vs Const vs Var	+
+2)arrow function		+
+3)super method			+
+4)spread and rest operator		+
+5)component		+
+6)props			+
+7)Jsx			+
+8)React Hook	+
+9)UseState 		+	
+10)map method	+
+11)ternary expression	+
+12)shift vs unShift method -> shift arrayin ilk elementini verir, unShift arrayin ilk indeksine element elave edir	+
+13)props children
+14)de-structuring	+
+15)React Fragment	+
+16)React Portal		+
+17)useRef
+18)useEffect
+19)useEffect cleanUp function -> Memory lake-in qarsisini almaq ucun istifade edilir.
+20)useReducer
+21)Object de-structuring
+22)Context API 
+23)focus
+24)reduce method
+25)react.memo() -> memo-nun icerisinde yazilan kodun neticesini saxlayir. Deyisilibse yeniden render olunur eks halda render olunmur.
+26)useCallback  -> useCallback-in icerisinde yazilan kodun ozunu saxlayir. Deyisilibse yeniden render olunur eks halda render olunmur.
+27)https://academind.com/tutorials/reference-vs-primitive-values bu linke bax
+28)component LifeCycle
+29)ComponentDidMount() vs ComponentDidUpdate(() vs ComponentWillUnmount()
+30)Redux
+31)Redux vs React Context
+32)useSelector vs useDispatch Redux -> useSelector Redux-daki state-i istifade etmek ucundur, useDispatch ise Redux-daki funksiyani isletmek ucun.
+33)Redux Toolkit
+34)createSlice
+
+
+35)React Toolkit yaratmaq qaydalari :
+				1)sliceler yaradirsan(createSlice -> name,initialState,reducer);
+				2)store yaradirsan(configureStore -> reducer: slice.reducer);
+				3)index.js- de App Componentini Provider taglarinin arasina alirsan, Provider tagina store={store} oturursen
+				4)isledmek istediyin yerde slice-i import edirsen daha sonra useDispatch methodunu import edirsen dispatch methodunun icerisine slice-dan gelen methodu oturursen.
+
+36)React Router
+37)a tag, Link, NavLink
+38)useParams
+39)Switch
+40)exact
+41)useHistory
+42)useLocation
+43)useRouteMatch
+44)useNavigate
+45)Lazy Loading
+46)Suspense 
+47)Fallback
